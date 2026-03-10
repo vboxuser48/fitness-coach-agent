@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/chat"
+API_URL = "https://fitness-coach-agent.onrender.com/chat"
 
 st.title("AI Fitness Coach")
 
