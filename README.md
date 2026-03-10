@@ -8,6 +8,22 @@ The system is designed with a **modular AI agent architecture** similar to produ
 
 ---
 
+# 🔗 Live Demo
+
+🌐 **Web App (Streamlit)**  
+https://fitness-coach-agent-admsb9hq8mhavim9e9gzeg.streamlit.app/
+
+⚡ **Backend API**  
+https://fitness-coach-agent.onrender.com/
+
+📚 **API Docs (Swagger UI)**  
+https://fitness-coach-agent.onrender.com/docs#/default/chat_chat_post
+
+🤖 **Telegram Bot**  
+https://t.me/Futness_agent_coach_bot
+
+---
+
 # 🚀 Features
 
 ### 🤖 AI Fitness Agent
