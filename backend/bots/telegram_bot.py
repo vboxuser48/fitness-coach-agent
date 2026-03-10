@@ -2,8 +2,7 @@ import requests
 from telegram.ext import Application, MessageHandler, filters
 from backend.config import TELEGRAM_BOT_TOKEN
 
-API_URL = "http://localhost:8000/chat"
-
+API_URL = "https://fitness-coach-agent.onrender.com/chat"
 
 async def handle_message(update, context):
 
