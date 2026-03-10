@@ -8,4 +8,12 @@ app = FastAPI(title="Fitness Coach AI Agent")
 def startup():
     init_db()
 
+@app.get("/")
+def root():
+    return {
+        "service": "Fitness Coach AI Agent",
+        "status": "running",
+        "docs": "/docs"
+    }
+
 app.include_router(chat_router)
